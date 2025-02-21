@@ -1,0 +1,21 @@
+{
+    "model": {
+        "model_name": "DeepLabV3",
+        "hyperparams": {
+            "num_epochs": 200,
+            "batch_size": 64,
+            "opt": "Adam",
+            "crit": "CrossEntropy",
+            "learning_rate": 0.0001
+        }
+    },
+    "data": {
+        "accuracy": 0.9702616930007935,
+        "f1": 0.4190084636211395,
+        "recall": 0.28889402747154236,
+        "precision": 0.7780167460441589,
+        "iou": 0.26690906286239624,
+        "dice": 0.2795126438140869,
+        "loss": 0.14842297128464738
+    }
+}

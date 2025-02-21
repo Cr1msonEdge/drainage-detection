@@ -1,0 +1,22 @@
+{
+    "model": {
+        "model_name": "UNet",
+        "hyperparams": {
+            "num_epochs": 200,
+            "batch_size": 64,
+            "opt": "Adam",
+            "crit": "CrossEntropy",
+            "learning_rate": 0.0004,
+            "scheduler": "ReduceLROnPlateau"
+        }
+    },
+    "data": {
+        "accuracy": 0.9941942095756531,
+        "f1": 0.7942670583724976,
+        "recall": 0.7154412269592285,
+        "precision": 0.8970073461532593,
+        "iou": 0.6617083549499512,
+        "dice": 0.8660163283348083,
+        "loss": 0.027521702470958875
+    }
+}

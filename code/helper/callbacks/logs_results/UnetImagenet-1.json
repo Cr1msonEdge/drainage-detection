@@ -1,0 +1,21 @@
+{
+    "model": {
+        "model_name": "UnetImagenet",
+        "hyperparams": {
+            "num_epochs": 200,
+            "batch_size": 64,
+            "opt": "Adam",
+            "crit": "CrossEntropy",
+            "learning_rate": 0.0001
+        }
+    },
+    "data": {
+        "accuracy": 0.9943041205406189,
+        "f1": 0.8061379790306091,
+        "recall": 0.7446476221084595,
+        "precision": 0.8809118270874023,
+        "iou": 0.6767696142196655,
+        "dice": 0.84869784116745,
+        "loss": 0.025652820865313213
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "model": {
+        "model_name": "NvidiaSegformer",
+        "hyperparams": {
+            "num_epochs": 200,
+            "batch_size": 64,
+            "opt": "AdamW",
+            "crit": "CrossEntropy",
+            "learning_rate": 0.0001
+        }
+    },
+    "data": {
+        "accuracy": 0.9927524328231812,
+        "f1": 0.761139988899231,
+        "recall": 0.7209474444389343,
+        "precision": 0.8096702098846436,
+        "iou": 0.6154648661613464,
+        "dice": 0.8687333464622498,
+        "loss": 0.028447590427853726
+    }
+}
